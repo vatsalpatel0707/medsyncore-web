@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medsyncore | Prior Authorization Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+      url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3') no-repeat center/cover;
+      color: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 70px;
+    }
+
+    header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 32px;
+      font-size: 15px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover { color: #00d9ff; }
+
+    .hero {
+      min-height: calc(100vh - 90px);
+      display: flex;
+      align-items: center;
+      padding: 0 70px;
+    }
+
+    .hero-box {
+      max-width: 680px;
+      background: rgba(255,255,255,0.08);
+      padding: 45px;
+      border-radius: 18px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 25px 45px rgba(0,0,0,0.45);
+    }
+
+    .hero-box h2 {
+      font-size: 44px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      line-height: 1.2;
+    }
+
+    .hero-box p {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #e6e6e6;
+      margin-bottom: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 36px;
+      background: linear-gradient(135deg, #00e0ff, #0077ff);
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0,224,255,0.45);
+    }
+
+    section.content {
+      padding: 90px 70px;
+      background: #ffffff;
+      color: #1e1e1e;
+    }
+
+    .content h3 {
+      font-size: 34px;
+      margin-bottom: 20px;
+      color: #0a2540;
+    }
+
+    .content p {
+      font-size: 15.5px;
+      line-height: 1.9;
+      max-width: 850px;
+      margin-bottom: 40px;
+      color: #444;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #f7f9fc;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #0a2540;
+    }
+
+    .card p {
+      font-size: 14.5px;
+      color: #555;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #0a2540;
+      color: #cfd8e3;
+      font-size: 13px;
+    }
+
+    @media(max-width: 768px) {
+      header, .hero, section.content { padding: 25px; }
+      .hero-box h2 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Medsyncore</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#why">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-box">
+    <h2>Streamlining Prior Authorization for Faster Patient Care</h2>
+    <p>
+      Medsyncore partners with healthcare providers to reduce prior authorization delays,
+      minimize denials, and ensure timely treatment approvals through expert-driven,
+      compliant, and efficient authorization support.
+    </p>
+    <a href="#contact" class="btn">Request a Consultation</a>
+  </div>
+</section>
+
+<section class="content" id="services">
+  <h3>Our Services</h3>
+  <p>
+    We provide end-to-end prior authorization and medical support services designed to
+    streamline workflows, improve approval rates, and reduce administrative burden for
+    healthcare organizations.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h4>Prior Authorization Management</h4>
+      <p>Complete handling of PA submissions, documentation, follow-ups, and payer coordination.</p>
+    </div>
+    <div class="card">
+      <h4>Benefits Verification</h4>
+      <p>Accurate eligibility and coverage verification to avoid delays and rework.</p>
+    </div>
+    <div class="card">
+      <h4>Denial Management</h4>
+      <p>Root-cause analysis and appeal support to improve approval outcomes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content" id="why">
+  <h3>Why Choose Medsyncore</h3>
+  <p>
+    Our team combines healthcare domain expertise with structured workflows to ensure
+    accuracy, compliance, and faster turnaround times — allowing providers to focus on
+    what matters most: patient care.
+  </p>
+</section>
+
+<footer id="contact">
+  © 2026 Medsyncore. All Rights Reserved.
+</footer>
+
+</body>
+</html>
