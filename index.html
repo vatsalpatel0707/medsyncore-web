@@ -20,13 +20,22 @@
     /* ---------- HERO ---------- */
     .hero {
       min-height: 100vh;
-      background: linear-gradient(rgba(10,37,64,0.75), rgba(10,37,64,0.85)),
-        url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3') no-repeat center/cover;
+      background: linear-gradient(rgba(10,37,64,0.55), rgba(10,37,64,0.65)),
+        url('https://images.unsplash.com/photo-1580281658629-8a5b0f0c27c1') no-repeat center/cover;
       display: flex;
       flex-direction: column;
     }
 
     header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 70px;
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid #e6eef5;
+    }
+
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -40,8 +49,12 @@
     }
 
     .logo img {
-      height: 42px;
+      height: 44px;
       width: auto;
+      background: #ffffff;
+      padding: 6px 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
     .logo span {
